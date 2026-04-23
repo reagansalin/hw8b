@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 1 - Form</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Processing a Form</h1>
+    <div class="card">
+      <form method="POST" action="/submit">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <button type="submit">Submit</button>
+      </form>
+      <p class="note">This route sends a confirmation message with the submitted name and email.</p>
+      <a class="button-link secondary" href="/">Home</a>
+    </div>
+  </div>
+  <script src="/public/ex1.js"></script>
+</body>
+</html>
